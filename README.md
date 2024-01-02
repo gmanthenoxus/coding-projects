@@ -4,7 +4,7 @@ Welcome to my repository where I showcase various mini projects implemented usin
 
 Project List
 
-Spocks game
+Simple Calculator
 Description: ...
 Technologies Used: HTML, CSS, JavaScript
 
