@@ -2,10 +2,11 @@ HTML, CSS, and JavaScript Mini Projects Repository
 
 Welcome to my repository where I showcase various mini projects implemented using HTML, CSS, and JavaScript.
 
-Project List
+Project List:
 
 Simple Calculator
-Description: ...
+Description: This project is a simple calculator implemented using HTML, CSS, and JavaScript. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator features a clean and user-friendly interface with responsive buttons and a display to show the entered expressions and results.
+
 Technologies Used: HTML, CSS, JavaScript
 
 
