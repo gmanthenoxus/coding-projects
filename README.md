@@ -9,7 +9,10 @@ Description: This project is a simple calculator implemented using HTML, CSS, an
 
 Technologies Used: HTML, CSS, JavaScript
 
+To-Do List
+Description:
 
+Technologies Used: HTML, CSS, JavaScript
 
 Getting Started
 

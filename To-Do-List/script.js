@@ -16,7 +16,7 @@ const taskInput = document.getElementById('taskInput');
             taskLabel.textContent = taskText;
 
             const deleteButton = document.createElement('button');
-            deleteButton.textContent = 'Delete';
+            deleteButton.textContent = 'X';
             deleteButton.className = 'deleteButton';
             deleteButton.addEventListener('click', deleteTask);
 
@@ -28,7 +28,7 @@ const taskInput = document.getElementById('taskInput');
 
             taskInput.value = ''; 
         }
-
+        
         function toggleTask(event) {
             const taskLabel = event.target.nextSibling;
             taskLabel.style.textDecoration = event.target.checked ? 'line-through' : 'none';
