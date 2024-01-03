@@ -20,8 +20,9 @@ body {
 
 .taskItem {
     display: flex;
-    align-items: center;
     margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center
 }
 
 .taskItem input[type="checkbox"] {
@@ -34,4 +35,18 @@ body {
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+}
+.deleteButton:hover{
+    background-color: cyan;
+}
+
+.List-container{
+    padding: 2em;
+    margin: 1em 2em 2em 2em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
 }
