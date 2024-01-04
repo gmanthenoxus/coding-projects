@@ -41,6 +41,14 @@ const taskInput = document.getElementById('taskInput');
 
         taskInput.addEventListener('keydown', function(event) {
             if (event.key === 'Enter') {
-                addTask();
+                if (taskList.children.length >= 10){
+                    taskList.removeChild(taskList.firstChild);
+                    addTask();
+                    for (let i = 0; i < taskList.children.length; i++) {
+                        console.log(taskList.children[i].textContent);
+                    }      
+                }
+                else
+                    addTask();
             }
         });
