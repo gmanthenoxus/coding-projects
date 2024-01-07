@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.countdown {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.countdown2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+
+#timer {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    cursor: pointer;
+}
