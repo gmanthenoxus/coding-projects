@@ -45,7 +45,7 @@ function formatTime(time) {
     return time < 10 ? '0' + time : time;
 }
 
-function updateCountdown() {
+/* function updateCountdown() {
     // Specify the target date and time (YYYY-MM-DD HH:mm:ss)
     const targetDate = new Date('2024-12-31T23:59:59');
 
@@ -68,7 +68,7 @@ function updateCountdown() {
         // If the target date has passed
         document.getElementById('timer2').textContent = 'Countdown expired!';
     }
-}
+} */
 
 function formatTime(time) {
     // Helper function to add leading zero if the time is a single digit
