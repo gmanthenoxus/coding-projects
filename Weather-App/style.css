@@ -18,3 +18,14 @@ body {
 #weather-info {
     margin-top: 20px;
 }
+
+.input-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}

@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="weather-container">
-        <div class="weather-con" id="weather-container"></div>
-        <div id="weather-info"></div>
+    <div>
+        <div class="input-text">
+        <input type="text" id="cityName" placeholder="Enter a city ">
+        <button onclick="fetchWeather()">Search</button>
+        </div>
+        <div class="weather-container">
+            <div class="weather-con" id="weather-container"></div>
+            <div id="weather-info"></div>
+        </div>
     </div>
+    
     
 
     <script src="script.js"></script>

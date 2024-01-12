@@ -1,16 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
+/* document.addEventListener('DOMContentLoaded', () => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(fetchWeather, handleLocationError);
     } else {
         alert('Geolocation is not supported by this browser.');
     }
-});
+}); */
 
-function fetchWeather(position) {
+function fetchWeather() {
     const apiKey = '95b2dee96f9142fc95d03141241201';
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${latitude},${longitude}&aqi=yes`;
+    /* const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude; */
+    const city = document.getElementById('cityName').value
+    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
     fetch(apiUrl)
         .then(response => response.json())
@@ -18,9 +19,9 @@ function fetchWeather(position) {
         .catch(error => console.error('Error fetching weather data:', error));
 }
 
-function handleLocationError(error) {
+/* function handleLocationError(error) {
     alert(`Error getting location: ${error.message}`);
-}
+} */
 
 function displayWeather(weatherData) {
     const weatherContainer = document.getElementById('weather-container');
