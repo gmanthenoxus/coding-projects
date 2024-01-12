@@ -27,9 +27,10 @@ function displayWeather(weatherData) {
     const weatherInfo = document.getElementById('weather-info');
 
     const cityName = weatherData.location.name;
+    const countryName = weatherData.location.country;
     const temperature = weatherData.current.temp_c; 
 
-    weatherContainer.innerHTML = `<h2>Weather in ${cityName}</h2>`;
+    weatherContainer.innerHTML = `<h2>Weather in ${countryName}</h2>`;
     weatherInfo.innerHTML = `<p>City: ${cityName}</p>
                              <p>Temperature: ${temperature} °C</p>`;
 }
