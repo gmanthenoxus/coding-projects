@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.age-container {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+#birthdate {
+    margin: 10px;
+}
+
+#calculate-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#result-container {
+    margin-top: 20px;
+}
