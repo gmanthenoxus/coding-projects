@@ -141,7 +141,26 @@ cd quote-generator
 
 Fetches random quotes from an API
 
-## 8. Color Flipper
+## 8. Weather App
+
+### Description
+
+An website that tells the current weather of a certain location based on the city imputed
+
+Installation
+
+```bash
+git clone https://github.com/your-username/color-flipper.git
+cd color-flipper
+# Open index.html in a web browser
+```
+
+### Features
+
+Fetches weather from weatherapi.com
+Displays weather and city
+
+## 9. Color Flipper
 
 ### Description
 
@@ -159,7 +178,7 @@ cd color-flipper
 
 Changes background color randomly
 
-## 9. Age Calculator
+## 10. Age Calculator
 
 ### Description
 
