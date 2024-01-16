@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.quote-container {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    max-width: 400px;
+}
+
+#new-quote-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
